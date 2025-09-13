@@ -1,0 +1,9 @@
+# 📘 Contexto do Laboratório
+
+Este exercício simula um incidente de segurança em que uma empresa sofre um ataque DDoS por meio de pacotes ICMP, resultando em interrupção de serviços por duas horas. 
+A falha foi causada por uma configuração inadequada de firewall, permitindo tráfego malicioso.
+
+A atividade tem como objetivo aplicar a estrutura NIST para analisar o incidente, responder de forma eficaz e implementar medidas de recuperação e proteção futuras.
+
+Além disso, o exercício reforça a importância de tratar segurança como um processo contínuo, e não como uma reação pontual. A reflexão final destaca a necessidade de 
+ferramentas como IDS/IPS, planos de resposta documentados e políticas de segurança atualizadas.
