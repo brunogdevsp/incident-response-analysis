@@ -1,0 +1,35 @@
+# 🛠️ Ações Técnicas e Medidas Aplicadas
+
+## 🔹 Respond (Resposta ao Incidente)
+
+Para conter o ataque, foram adotadas as seguintes medidas:
+
+- Bloqueio imediato de pacotes ICMP para interromper o tráfego malicioso.
+- Desativação de serviços não essenciais para limitar a superfície de ataque.
+- Notificação da equipe de segurança e início da análise forense.
+- Atualização das políticas de segurança com base nos registros do ataque.
+
+## 🔹 Recover (Recuperação)
+
+Após a contenção, foram realizadas ações de recuperação:
+
+- Restauração dos serviços afetados e verificação da integridade dos dados.
+- Comunicação interna sobre o incidente e as medidas tomadas.
+- Revisão do plano de continuidade e resiliência da infraestrutura.
+
+## 🔹 Protect (Prevenção de futuros ataques)
+
+Para fortalecer a segurança, foram implementadas:
+
+- Regras de firewall para limitar a taxa de pacotes ICMP.
+- Filtragem de IPs de origem suspeita.
+- Treinamento da equipe sobre prevenção de ataques DDoS.
+- Segmentação da rede para proteger serviços críticos.
+
+## 🔹 Reflections / Notas
+
+- A vulnerabilidade explorada estava na configuração do firewall.
+- A resposta foi rápida, mas evidenciou a falta de um plano documentado.
+- Ferramentas de monitoramento como IDS/IPS são essenciais.
+- Bloquear ICMP e verificar IPs são boas práticas, mas não suficientes sozinhas.
+- A organização deve estar preparada para ataques futuros com planos robustos.
